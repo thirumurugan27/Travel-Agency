@@ -1,0 +1,45 @@
+
+.top{
+    padding: 20px;
+}
+ul,li,h1{
+    display: inline;
+}
+ul{
+    margin-left: 65%;
+}
+li{
+    margin-left: 10px;
+}
+li:hover
+{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+.but
+{
+    margin-left: 10px;
+}
+.but:hover{
+    background-color: blue;
+    color: white;
+}
+.mainbody{
+    background-image: url(pink.jpg);
+    background-size: cover;
+}
+.im{
+    padding: 20px;
+    text-align: center;
+    
+}
+.img{
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    height: 440px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+  
