@@ -30,7 +30,7 @@ li:hover
     color: white;
 }
 .mainbody{
-    background-image: url(beach.jpg);
+    background-image: url(newmon.jpg);
     background-size: cover;
     color: white;
 }
@@ -65,13 +65,20 @@ p.{
     
 }
 .bad{
+    font-size: 150%;
     margin-top: 1%;
     margin-left: 10%;
+    display: inline-block;
+    border-radius: 10px;
 
 }
 .box
 {
-
-    width: 50%;
-    color: white;
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    margin-left: 9%;
+    border: 2px solid;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
