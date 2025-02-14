@@ -4,6 +4,7 @@
 }
 ul,li,h1{
     display: inline;
+    
 }
 ul{
     margin-left: 65%;
@@ -13,21 +14,24 @@ li{
 }
 li:hover
 {
-    background-color: grey;
+    background-color: aqua;
     color: white;
     cursor: pointer;
 }
 .but
 {
     margin-left: 10px;
+    background-color: white;
+    border-radius: 6px;
 }
 .but:hover{
     background-color: blue;
     color: white;
 }
 .mainbody{
-    background-image: url(pink.jpg);
+    background-image: url(beach.jpg);
     background-size: cover;
+    color: white;
 }
 .im{
     padding: 20px;

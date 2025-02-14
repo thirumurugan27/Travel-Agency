@@ -1,36 +1,109 @@
 <!DOCTYPE html>
 <head>
     <title>booknow</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form >
-        <table>
-            <tr>
-                <td>Name:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>City of Residence:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>Mobile Number:</td>
-                <td><input type="number"></td>
-            </tr>
-            <tr>
-                <td>Travel Destination:</td>
-                <td>
-                    <select >
-                        <option>Dubai</option>
-                        <option>Europe</option>
-                        <option>Egypt</option>
-                        <option>Japan</option>
-                    </select> 
-                </td>
-            </tr>
-        </table>
+    
+    <div class="top">
+        <h1><b>GoTravels</b></h1>
+        <ul>
+            <a href="main.html">
+                <li>Home</li>
+            </a>
+    
+            <a href="destination.html">
+                <li>Destinations</li>
+            </a>
+            <a href="contactus.html">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+        <a href="booknow.html"><button class="but">Book Now</button></a>
+    
+    </div>
+    <div class="register">
+        <h1><b>Grab Your Tickets Now</b></h1>
+    </div>
+    <center>
+        <form style="margin-top: 40px;">
+           <b><table>
+                <tr >
+                    <td>Name:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>City of Residence:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Travel Destination:</td>
+                    <td>
+                        <select>
+                            <option>Dubai</option>
+                            <option>Europe</option>
+                            <option>Egypt</option>
+                            <option>Japan</option>
+                            <option>Singapore</option>
+                            <option value="">United Kingdom</option>
+                            <option value="">Thailand</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td>Date Of Travel:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Numbr Of Peoples:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Vacation Type:</td>
+                    <td>
+                        <select>
+                            <option>Family Trip</option>
+                            <option >Honey Moon</option>
+                            <option value="">Friends Trip</option>
+                            <option value="">Corprate</option>
 
-    </form>
+                        </select>
+                    </td>
+                </tr>
+                <tr style="margin-left: 50%;">
+                        <td >
+                            <input st type="submit">
+                            <input type="reset">
+                        </td>
+                 
+                </tr>
+
+            </table></b>
+        </center>
+        
+        </form>
+    
     
 </body>
 </html>
+<style>
+    body{
+        text-align: center;
+        background-image: url(book.jpg);
+        background-size: cover;
+    }
+    tr,td{
+        padding: 15px;
+        font-size: large;
+        
+    }
+    .register
+    {
+        padding: 30px;
+    }
+    
+   
+</style>
