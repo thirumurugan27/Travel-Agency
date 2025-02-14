@@ -3,21 +3,14 @@
     <title>booknow</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="text-align: center; background-image: url(book.jpg);background-size: cover;">
     
     <div class="top">
-        <h1><b>GoTravels</b></h1>
+        <h1 ><b>GoTravels</b></h1>
         <ul>
-            <a href="main.html">
-                <li>Home</li>
-            </a>
-    
-            <a href="destination.html">
-                <li>Destinations</li>
-            </a>
-            <a href="contactus.html">
-                <li>Contact Us</li>
-            </a>
+            <a href="main.html"><li style="color: white;">Home</li></a>
+            <a href="destination.html"><li style="color: white;">Destinations</li></a>
+            <a href="contactus.html"><li style="color: white;">About Us</li></a>
         </ul>
         <a href="booknow.html"><button class="but">Book Now</button></a>
     
@@ -26,7 +19,7 @@
         <h1><b>Grab Your Tickets Now</b></h1>
     </div>
     <center>
-        <form style="margin-top: 40px;">
+        <form style="margin-top: 0px;">
            <b><table>
                 <tr >
                     <td>Name:</td>
@@ -73,10 +66,10 @@
                         </select>
                     </td>
                 </tr>
-                <tr style="margin-left: 50%;">
+                <tr style="">
                         <td >
-                            <input st type="submit">
-                            <input type="reset">
+                            <input class="x" type="submit">
+                            <input class="x" type="reset">
                         </td>
                  
                 </tr>
@@ -90,11 +83,7 @@
 </body>
 </html>
 <style>
-    body{
-        text-align: center;
-        background-image: url(book.jpg);
-        background-size: cover;
-    }
+   
     tr,td{
         padding: 15px;
         font-size: large;
@@ -102,8 +91,14 @@
     }
     .register
     {
-        padding: 30px;
+        padding: 5px;
     }
+    .x{
+        border-radius: 7px;
+        
+    }
+   
+   
     
    
 </style>

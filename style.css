@@ -3,7 +3,8 @@
     padding: 20px;
 }
 ul,li,h1{
-    display: inline;
+    display: inline-block;
+    color: black;
     
 }
 ul{
@@ -14,8 +15,8 @@ li{
 }
 li:hover
 {
-    background-color: aqua;
-    color: white;
+    
+    color: blue;
     cursor: pointer;
 }
 .but
@@ -46,4 +47,31 @@ li:hover
     margin-right: 30px;
     margin-top: 50px;
 }
-  
+.mad{
+    padding: 20px;
+    margin-top: 2%;
+}
+.txt{
+    font-size: 400%;
+    margin-left: 8%;
+    margin-top: 5%;
+    font-family: Georgia, serif;
+
+}
+p.{
+    color: white;
+    text-decoration: solid;
+    
+    
+}
+.bad{
+    margin-top: 1%;
+    margin-left: 10%;
+
+}
+.box
+{
+
+    width: 50%;
+    color: white;
+}
